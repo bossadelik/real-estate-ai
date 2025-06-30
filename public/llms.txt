@@ -1,0 +1,8 @@
+## Pages
+- [Contatti - ImmobiliareGPT](/contact): Contattaci per piani personalizzati, supporto o qualsiasi altra richiesta. Siamo qui per aiutarti.
+- [Crea Annuncio - ImmobiliareGPT](/createad): Carica le tue foto e inserisci i dettagli del tuo immobile. L
+- [Dashboard - ImmobiliareGPT](/dashboard): Visualizza lo stato dei tuoi ordini e la cronologia dei tuoi annunci ottimizzati.
+- [ImmobiliareGPT - Annunci Immobiliari con AI](/home): Trasforma le tue foto e testi in annunci immobiliari professionali e irresistibili con la potenza dell
+- [Login - ImmobiliareGPT](/login): Accedi alla tua dashboard per gestire i tuoi annunci immobiliari.
+- [Piani e Prezzi - ImmobiliareGPT](/pricing): Scopri i piani tariffari di ImmobiliareGPT. Scegli la soluzione perfetta per te, dal singolo annuncio al piano per agenzie.
+- [Privacy Policy - ImmobiliareGPT](/privacypolicy): Informativa sulla Privacy di ImmobiliareGPT. Scopri come raccogliamo, utilizziamo e proteggiamo i tuoi dati personali.
