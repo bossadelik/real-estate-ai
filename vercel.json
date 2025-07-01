@@ -1,8 +1,7 @@
 {
-  "version": 2,
   "functions": {
     "api/enhance-image.ts": {
-      "runtime": "edge"
+      "runtime": "vercel-edge@1.0.0"
     }
   }
 }
