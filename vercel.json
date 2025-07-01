@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/enhance-image.ts": {
+    "api/**/*.ts": {
       "runtime": "edge"
     }
   }
