@@ -1,7 +1,5 @@
 {
-  "functions": {
-    "supabase/functions/*.{js,ts}": {
-      "runtime": "edge"
-    }
-  }
+  "version": 2,
+  "builds": [],
+  "routes": []
 }
