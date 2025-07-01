@@ -1,15 +1,14 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "api/**/*.ts",
-      "use": "@vercel/deno"
+  "version": 3,
+  "functions": {
+    "api/enhance-image.ts": {
+      "runtime": "edge"
     }
-  ],
+  },
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "/api/$1.ts"
+      "src": "/api/enhance-image",
+      "dest": "/api/enhance-image.ts"
     }
   ]
 }
