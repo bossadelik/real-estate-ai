@@ -1,3 +1,4 @@
+// api/enhance-image.ts
 import { serve } from "https://deno.land/std@0.177.0/http/server.ts";
 import { OpenAI } from "openai";
 
@@ -7,13 +8,11 @@ serve(async (req) => {
   if (req.method !== "POST") {
     return new Response("Solo POST ammesso", { status: 405 });
   }
-
   const form = await req.formData();
   const file = form.get("image") as File;
   if (!file) {
     return new Response("Nessuna immagine", { status: 400 });
   }
-
   const buffer = await file.arrayBuffer();
   const chat = await openai.chat.completions.create({
     model: "gpt-4o",
@@ -31,7 +30,6 @@ serve(async (req) => {
   if (!b64) {
     return new Response("Enhancement fallito", { status: 500 });
   }
-
   const bytes = Uint8Array.from(atob(b64), c => c.charCodeAt(0));
   return new Response(bytes, { headers: { "Content-Type": file.type } });
 });
