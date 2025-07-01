@@ -1,7 +1,8 @@
 {
+  "version": 2,
   "functions": {
-    "api/*.ts": {
-      "runtime": "edge"
+    "api/enhance-image.ts": {
+      // Nessun "runtime" specificato usa Node.js di default
     }
   }
 }
