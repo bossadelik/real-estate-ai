@@ -1,7 +1,7 @@
 {
   "functions": {
-    "api/enhance-image": {
-      "runtime": "edge"
+    "supabase/functions/*.{js,ts}": {
+      "runtime": "vercel-edge@1.0.0"
     }
   }
 }
