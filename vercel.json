@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "supabase/functions/*.{js,ts}": {
+      "runtime": "edge"
+    }
+  }
+}
