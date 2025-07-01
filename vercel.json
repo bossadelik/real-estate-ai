@@ -1,6 +1,6 @@
 {
   "functions": {
-    "supabase/functions/*.{js,ts}": {
+    "api/enhance-image": {
       "runtime": "edge"
     }
   }
